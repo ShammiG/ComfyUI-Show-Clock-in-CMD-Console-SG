@@ -34,15 +34,16 @@ Processing time is displayed in **Minutes and seconds** even if process takes le
 # Installation:
 **1.** Clone this repository into your **ComfyUI/custom_nodes** directory:    
        
-               git clone https://github.com/ShammiG/ComfyUI-Show-Clock-in-CMD-Console-SG.git  
+    git clone https://github.com/ShammiG/ComfyUI-Show-Clock-in-CMD-Console-SG.git  
       
 **2.** **Restart ComfyUI**   
       
 That's it. You will see the message during comfyUI startup in console:       
               
-<img width="1892" height="77" alt="Startup" src="https://github.com/user-attachments/assets/fe3190c6-b027-4c71-be1d-f68aaa9fb2e8" />        
-                  
-**This was made possible with the help of Perplexity Pro : Claude 4.0 Sonet**      
+<img width="1892" height="77" alt="Startup" src="https://github.com/user-attachments/assets/fe3190c6-b027-4c71-be1d-f68aaa9fb2e8" />                      
 
-Big Shoutout to them.
+
+                                             
+**This was made possible with the help of Perplexity Pro : Claude 4.0 Sonet**      
+   Big Shoutout to them.
 
