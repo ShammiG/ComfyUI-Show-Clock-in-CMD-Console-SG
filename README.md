@@ -1,8 +1,9 @@
 # ComfyUI-Show-Clock-in-CMD-Console-SG
 
 
-Simple node that automatically intializes at ComfyUI startup. **No extra dependencies needed**.
-This eliminates the need to add a Node to every workflow.
+Simple node that **automatically intializes** at ComfyUI startup. **No extra dependencies needed**.            
+This eliminates the need to add a Node to every workflow.           
+          
 <img width="1892" height="77" alt="Startup" src="https://github.com/user-attachments/assets/6cdba341-fb40-432d-a8be-1dbacc7f8d7d" /> 
 
 
@@ -16,7 +17,7 @@ Also useful when there are several processes in queue and you want to find out a
 Processing time is displayed in **Minutes and seconds** even if process takes less than 10 minutes (By default, comfyUI shows only in seconds if processing takes less than 10 minutes.)           
 
                
-**General :**
+**General :**        
 <img width="1904" height="225" alt="proccesing begins and fisnished" src="https://github.com/user-attachments/assets/4c1128f0-25d7-4eeb-8371-b6f344a2796c" />
 
 **When Interrupted with ComfyUI :**
