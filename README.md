@@ -3,14 +3,17 @@
 
 Simple node that automatically intializes at ComfyUI startup. **No extra dependencies needed**.
 This eliminates the need to add a Node to every workflow.
-<img width="1892" height="77" alt="Startup" src="https://github.com/user-attachments/assets/6cdba341-fb40-432d-a8be-1dbacc7f8d7d" />
+<img width="1892" height="77" alt="Startup" src="https://github.com/user-attachments/assets/6cdba341-fb40-432d-a8be-1dbacc7f8d7d" /> 
+
 
 **Shows 24H clock time in CMD Console** when :
 **Process starts**, Process **ends**, if Process is **interrupted** (both through UI and with Ctrl+C) and if Process **fails**         
-         
+
+Also useful when there are several processes in queue and you want to find out at what specific time did certain process started or ended.         
+        
 **Color coded** for easier viewing, this also makes it easier finding any earlier interruptions or Processes in console.
                   
-Processing time is displayed in **Minutes and seconds** even if process takes less than 10 minutes (By default, comfyUI shows only in seconds if processing takes less than 10 minutes.)
+Processing time is displayed in **Minutes and seconds** even if process takes less than 10 minutes (By default, comfyUI shows only in seconds if processing takes less than 10 minutes.)           
 
                
 **General :**
