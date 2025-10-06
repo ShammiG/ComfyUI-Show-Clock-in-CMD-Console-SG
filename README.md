@@ -47,7 +47,7 @@ That's it. You will see the message during comfyUI startup in console:
 <br>
       
 # Also check this node that Shows times for Only VAE Decode on Cmd Console.
-[ComfyUI-Show-Clock-in-CMD-Console-SG](https://github.com/ShammiG/ComfyUI-VAE-Timestamp-Clock-SG)
+[ComfyUI-VAE-Timestamp-Clock-SG](https://github.com/ShammiG/ComfyUI-VAE-Timestamp-Clock-SG)
 
 <br>
 <br>     
