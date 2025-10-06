@@ -31,7 +31,7 @@ def check_for_interrupt():
         total_time = time.time() - _start_time
         formatted_time = format_time_minutes_seconds(total_time)
         timestamp = datetime.datetime.now().strftime('%H:%M:%S')
-        print(f"\033[93m🕒 [{timestamp}] Process interrupted by user (Time taken: {formatted_time})\033[0m")
+        print(f"{ORANGE}🕒 [{timestamp}] Process interrupted (Time taken: {formatted_time}){RESET}")
         _start_time = None
         _interrupt_detected = False
 
@@ -42,7 +42,7 @@ def cleanup_on_exit():
         total_time = time.time() - _start_time
         formatted_time = format_time_minutes_seconds(total_time)
         timestamp = datetime.datetime.now().strftime('%H:%M:%S')
-        print(f"\033[93m🕒 [{timestamp}] Process interrupted (Time taken: {formatted_time})\033[0m")
+        print(f"{ORANGE}🕒 [{timestamp}] Process interrupted (Time taken: {formatted_time}){RESET}")
 
 def install_startup_hooks():
     """Install hooks with delayed initialization for startup"""
