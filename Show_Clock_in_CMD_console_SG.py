@@ -5,6 +5,10 @@ import sys
 import os
 import atexit
 
+# ANSI color code for orange (RGB: 255, 165, 0)
+ORANGE = '\033[38;2;255;165;0m'
+RESET = '\033[0m'
+
 # Global variables for startup initialization
 _hooks_installed = False
 _start_time = None
@@ -70,10 +74,10 @@ def install_startup_hooks():
                     if _start_time is not None:
                         total_time = time.time() - _start_time
                         formatted_time = format_time_minutes_seconds(total_time)
-                        print(f"\033[92m🕒 [{timestamp}] Processing Completed (Time Taken: {formatted_time})\033[0m")
+                        print(f"\033[92m🕒[{timestamp}] Processing Completed (Time Taken: {formatted_time}) \033[0m")
                         _start_time = None # Reset for next execution
                     else:
-                        print(f"\033[92m🕒 [{timestamp}] Processing Completed\033[0m")
+                        print(f"\033[92m🕒 [{timestamp}] Processing Completed \033[0m")
                 
                 elif event == "execution_error":
                     if _start_time is not None:
@@ -88,7 +92,7 @@ def install_startup_hooks():
                     if _start_time is not None:
                         total_time = time.time() - _start_time
                         formatted_time = format_time_minutes_seconds(total_time)
-                        print(f"\033[93m🕒 [{timestamp}] Process interrupted (Time taken: {formatted_time})\033[0m")
+                        print(f"{ORANGE}🕒 [{timestamp}] Process interrupted (Time taken: {formatted_time}) {RESET}")
                         _start_time = None # Reset for next execution
                 
                 return _original_send_sync(event, data, sid)
@@ -96,7 +100,7 @@ def install_startup_hooks():
             PromptServer.instance.send_sync = startup_logging_send_sync
             _hooks_installed = True
             timestamp = datetime.datetime.now().strftime('%H:%M:%S')
-            print(f"\033[93m \n 🕒 [{timestamp}] Show Clock in CMD console-SG initialized at ComfyUI startup \n \033[0m")
+            print(f"{ORANGE} \n 🕒 [{timestamp}] Show 24h Clock in CMD console-SG initialized at ComfyUI startup \n  {RESET}")
 
             return True
     
