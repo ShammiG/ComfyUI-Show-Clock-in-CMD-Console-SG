@@ -108,7 +108,7 @@ def install_startup_hooks():
                     if _start_time is not None:
                         total_time = time.time() - _start_time
                         formatted_time = format_time_minutes_seconds(total_time)
-                        print(f"\033[92m🕒[{timestamp}] Processing Completed (Time Taken: {formatted_time}) \033[0m")
+                        print(f"\033[92m🕒 [{timestamp}] Processing Completed (Time Taken: {formatted_time}) \033[0m")
                         _start_time = None  # Reset for next execution
                     else:
                         print(f"\033[92m🕒 [{timestamp}] Processing Completed \033[0m")
@@ -201,4 +201,5 @@ NODE_DISPLAY_NAME_MAPPINGS = {
 }
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
+
 
