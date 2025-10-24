@@ -36,11 +36,26 @@ Now the startup message appears below the server address to keep track of when c
 <img width="1099" height="131" alt="dg" src="https://github.com/user-attachments/assets/e1b956af-1136-499e-9afb-af4a35e01d90" />
 
 # Installation:
-**1.** Clone this repository into your **ComfyUI/custom_nodes** directory:    
+
+**OPTION 1 :** If you have comfyUI Manager:        
+Click on Manager>Custom Nodes Manager          
+you can directly search ComfyUI-Show-Clock-in-CMD-Console-SG and click install.          
+Restart comfyUI from manager and you will see this message in console:     
+
+<img width="1905" height="70" alt="Screenshot 2025-10-06 120952" src="https://github.com/user-attachments/assets/47838bc9-3b5c-4fa5-9880-51e6cd0eb37c" />
+
+<br>
+<br> 
+
+**OPTION 2 :** If you don't have comfyUI Manager installed:           
+          
+**1.** Open command prompt inside ComfyUI/custom_nodes directory.              
+       
+**2.** Clone this repository into your **ComfyUI/custom_nodes** directory:    
        
     git clone https://github.com/ShammiG/ComfyUI-Show-Clock-in-CMD-Console-SG.git  
       
-**2.** **Restart ComfyUI**   
+**3.** **Restart ComfyUI**   
       
 That's it. You will see the message during comfyUI startup in console:       
               
