@@ -1,7 +1,7 @@
 # ComfyUI Show Clock in CMD Console SG
 
 
-Simple node that **automatically intializes** at ComfyUI startup. **No extra dependencies needed**.            
+Simple node that **automatically intializes** at ComfyUI startup and shows a timestamp for tasks. **No extra dependencies needed**.            
 This eliminates the need to add a Node to every workflow.           
           
 <img width="1905" height="70" alt="Screenshot 2025-10-06 120952" src="https://github.com/user-attachments/assets/47838bc9-3b5c-4fa5-9880-51e6cd0eb37c" />
@@ -30,7 +30,10 @@ Processing time is displayed in **Minutes and seconds even if process takes less
 **If processing fails for some reason :**
 <img width="1903" height="106" alt="fails" src="https://github.com/user-attachments/assets/1c8b1e84-9c40-48c1-b31a-23d382a63ed1" />
 
-
+# Update:
+Now the startup message appears below the server address to keep track of when comfyUI is restarted :         
+           
+<img width="1099" height="131" alt="dg" src="https://github.com/user-attachments/assets/e1b956af-1136-499e-9afb-af4a35e01d90" />
 
 # Installation:
 **1.** Clone this repository into your **ComfyUI/custom_nodes** directory:    
@@ -41,7 +44,7 @@ Processing time is displayed in **Minutes and seconds even if process takes less
       
 That's it. You will see the message during comfyUI startup in console:       
               
-<img width="1892" height="77" alt="Startup" src="https://github.com/user-attachments/assets/fe3190c6-b027-4c71-be1d-f68aaa9fb2e8" />
+<img width="1905" height="70" alt="Screenshot 2025-10-06 120952" src="https://github.com/user-attachments/assets/47838bc9-3b5c-4fa5-9880-51e6cd0eb37c" />
 
 <br>
 <br>
