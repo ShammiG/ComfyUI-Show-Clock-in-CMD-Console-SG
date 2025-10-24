@@ -58,7 +58,7 @@ class LoggingInterceptor(logging.Handler):
         if not _message_printed and "To see the GUI go to:" in record.getMessage():
             # Print  message right after
             timestamp = datetime.datetime.now().strftime('%H:%M:%S')
-            print(f"{ORANGE}🕒 [{timestamp}] Show 24h Clock in CMD console-SG initialized at ComfyUI startup{RESET}")
+            print(f"{ORANGE}\n🕒 [{timestamp}] Show 24h Clock in CMD console-SG initialized at ComfyUI startup{RESET}")
             sys.stdout.flush()
             _message_printed = True
 
@@ -201,3 +201,4 @@ NODE_DISPLAY_NAME_MAPPINGS = {
 }
 
 __all__ = ["NODE_CLASS_MAPPINGS", "NODE_DISPLAY_NAME_MAPPINGS"]
+
