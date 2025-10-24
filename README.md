@@ -37,7 +37,7 @@ Now the startup message appears below the server address to keep track of when c
 
 # Installation:
 
-**OPTION 1 :** If you have comfyUI Manager:        
+**OPTION 1 :** If you have [ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager):        
 Click on Manager>Custom Nodes Manager          
 you can directly search ComfyUI-Show-Clock-in-CMD-Console-SG and click install.          
 Restart comfyUI from manager and you will see this message in console:     
@@ -72,4 +72,4 @@ That's it. You will see the message during comfyUI startup in console:
       
 **This was made possible with the help of Perplexity Pro : Claude 4.0 Sonet**      
    Big Shoutout to them.
-
+[ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager)
