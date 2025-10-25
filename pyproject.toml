@@ -1,5 +1,5 @@
 [project]
-name = "show-clock-in-cmd-console-sg"
+name = "ComfyUI-Show-Clock-in-CMD-Console-SG"
 description = "This comfyUI node intializes at startup automatically and displays the clock in CMD console when Process starts and ends."
 version = "1.0.0"
 license = {file = "LICENSE"} 
@@ -27,4 +27,5 @@ PublisherId = "shammi-g"
 DisplayName = "ComfyUI-Show-Clock-in-CMD-Console-SG"
 Icon = "" 
 # "requires-comfyui" = ">=1.0.0"
+
 
