@@ -94,6 +94,9 @@ That's it. You will see the message during comfyUI startup in console:
 <br>
 <br>
 
+# Appreciate and support my work on [Patreon](https://www.patreon.com/c/ShammiG)
+<br>
+<br>
       
 **This was made possible with the help of Perplexity Pro : Claude 4.0 Sonet**      
    Big Shoutout to them.
